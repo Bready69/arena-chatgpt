@@ -1,0 +1,28 @@
+{
+  "name": "arena-chatgpt",
+  "version": "1.0.1",
+  "description": "Independent agent tournaments with strategy cards, adversarial rounds, separate judges, and resumable state.",
+  "author": {
+    "name": "Arena contributors"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Arena",
+    "shortDescription": "Competing answers, judged",
+    "longDescription": "Run real independent competitors through attack, defend, revise, and separately judged rounds. Includes strategy cards, weighted scoring, resumable records, and a separate blind baseline comparison. Requires Python and native independent subagents. No paid model APIs or API keys.",
+    "developerName": "Arena contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Independent competitors",
+      "Adversarial review",
+      "Separate judging",
+      "Resumable tournaments"
+    ],
+    "defaultPrompt": [
+      "Use Arena with 4 competitors to solve my task."
+    ],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}

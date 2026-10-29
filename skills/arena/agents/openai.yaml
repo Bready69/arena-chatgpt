@@ -1,0 +1,9 @@
+interface:
+  display_name: Arena
+  short_description: Independent agents compete to improve one answer
+  default_prompt: Use $arena --agents 4 to solve my task with independent competitors
+    and separate judges.
+  icon_small: ./assets/icon.svg
+  icon_large: ./assets/icon.svg
+policy:
+  allow_implicit_invocation: true
