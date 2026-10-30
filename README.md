@@ -109,4 +109,3 @@ GitHub Actions runs the checks and verifies that the committed plugin ZIP is rep
 - [Changelog](CHANGELOG.md)
 - [Attribution](THIRD_PARTY_NOTICES.md) and [MIT license](LICENSE)
 
-Publishing this source repository does not submit the plugin to OpenAI's public plugin directory.
